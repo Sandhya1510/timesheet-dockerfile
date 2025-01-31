@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: linear-gradient(lightblue,pink);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-left: 55px;
+}
+
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+/* Form styles */
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="time"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+button {
+  background-color: lightblue;
+  color: black;
+  padding: 6px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(74, 205, 248);
+}
+
+/* Error message */
+p {
+  color: red;
+  font-size: 14px;
+}
+
+/* Task list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #dde6ef;
+  border: 1px solid #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 90%;
+  line-height: 30px;
+}
+
+li:hover {
+  background-color: #e9ecef;
+}
+
+/* Total hours */
+h3 {
+  margin-top: 20px;
+  background-color: #3693f5;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  width: 90%;
+}
+
+.btn{
+  background-color: lightblue;
+  color: black;
+  padding: 6px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn:hover{
+  background-color: rgb(74, 205, 248);
+}
+.edit{
+  margin: 0;
+}
+
